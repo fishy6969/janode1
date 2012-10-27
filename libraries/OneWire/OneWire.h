@@ -5,6 +5,7 @@
 
 #if ARDUINO >= 100
 #include "Arduino.h"       // for delayMicroseconds, digitalPinToBitMask, etc
+#include "pins_arduino.h"  // for digitalPinToBitMask, etc attint84
 #else
 #include "WProgram.h"      // for delayMicroseconds
 #include "pins_arduino.h"  // for digitalPinToBitMask, etc
